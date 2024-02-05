@@ -1,0 +1,9 @@
+# Inserção de Dados
+conj1 <- scan()
+conj2 <- scan()
+
+# Processamento de teste
+result_ks <- ks.test(conj1,conj2)
+
+# Resultado
+print(result_ks)
